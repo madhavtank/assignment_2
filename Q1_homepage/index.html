@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About myself</title>
+<link rel="stylesheet" href="1.css"/>
+<script src="1.js">
+
+</script>
+<style>
+.button{
+    background-color: green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}   
+</style>
+
+</head>
+<body>
+    <div style="margin:0 10%">
+      <table id="mytable">
+        <tr>
+            <td  id="abcd2"><center>About Myself</center></td>
+            <td  id="abcd1"><ul><li>Hello,I am Madhav Tank, a 18 years old boy.
+            I'm currently pursuing my B.Tech. from IIIT Hyderabad
+            in Computer Science and Engineering. I am from Rajkot,Gujarat.</li><br>
+            <li>I like listening songs and watching movies. In my college, mess food is very good and
+            senoirs are also very humble and helping.After coming to campus, I have made many friends.</li><br>
+            <li>I am a takative individual who enjoys talking to friends.</li></ul></td>
+        </tr>
+        <tr>
+            <td  id="abcd3"><center>My Profile Photo</center></td>
+            <td  id="abcd4"><center><img src="media/profile_photo.jpg" height="500"></center></td>
+        </tr>
+        <tr>
+            <td  id="abcd5"><center>Education Background</center></td>
+            <td  id="abcd6"><ul><li>I graduated from Dholakiya School in Rajkot
+             with a 10th and 12th grade diploma.</li>
+            </ul></td>
+        </tr>
+        <tr>
+            <td  id="abcd7"><center>Achievements</center></td>  
+            <td  id="abcd8"><ul><li>I secured AIR 339 in JEE mains.</li>
+            <li>I secured AIR 1610 in JEE advanced.</li></ul></td>      
+        </tr>
+        <tr>
+            <td  id="abcd9"><center>Skills</center></td>
+            <td id="abcd11"><ul><li>live happily</li></ul></td>
+        </tr>
+        <tr>
+            <td  id="abcd10"><center>News and Updates</center></td>
+            <td id="abcd12"><ul><li>Dealing with assignments.</li>
+            </ul></td>
+        </tr>
+      </table>
+    </div>
+      <br>
+      <br>
+      <br>
+      <h1 style="color: white; margin-left: 230px;"><u>External link</u></h1>
+      <h1 style="color: white; margin-left: 950px;"><u>Link to local file system</u></h1>
+      <a href="https://iiit.ac.in"><img src="https://mma.prnewswire.com/media/600789/IIIT_Hyderabad_Logo.jpg?p=facebook" alt="iiit.ac.in" height="500" width="50%"></a>
+      <a href="media/Assignment 2.pdf"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQUad0CrBbPxgtSNc34Wi0kLTI0f53jJElBQ&usqp=CAU" alt="assignment" height="500" width="49%"></a>
+      <br>
+      <br>
+      <br>
+      <center><h1 style="color:white">Buttons for changing colors</h1>
+      <button class="button" onclick="myFunction()">GREEN</button>
+      <button class="button1" onclick="myFunction1()">RED</button>
+      <button class="button2" onclick="myFunction2()">BLUE</button>
+      <button class="button3" onclick="myFunction3()">PURPLE</button>
+      <button class="button4" onclick="myFunction4()">DEFAULT</button>
+      <br><br>
+      <h1 style="color:white">Buttons for changing font-size of above table</h1>  
+      <button type="button" class="button5" onclick="increaseFontSizeBy5px()">inc(+)</button>
+      <button type="button" class="button5" onclick="default_font()">Default font-size</button>
+      <button type="button" class="button5" onclick="decreaseFontSizeBy4px()">dec(-)</button></center>
+        <br>
+        <br>
+        <br>
+        <div class="main" style="margin:0 20%">
+            <h1 style="color:white;text-align: center;">Add some updates </h1>
+        <form id="updates_form" onsubmit="updatesubmit()">
+            <div class="row">
+                <div class="label1">
+                    <label for="name">Name</label>
+                </div>
+                <div class="input1">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required="required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="label1">
+                    <label for="updates">Updates</label>
+                </div>
+                <div class="input1">
+                    <input type="text" id="updates" name="updates" placeholder="Your updates">
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+            </form>
+            <h1 style="color:white;text-align: center;">Past Updates</h1>
+    <table id="newupdates" style="width:100%;text-align:center;font-size:20px">
+        <thead>
+            <tr>
+                <th style="width:50%">Name</th>
+                <th>Updates</th>
+            </tr>
+        </thead>
+    </table>
+        </div>
+</body>
+</html>

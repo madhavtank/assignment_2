@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Zilla+Slab:ital,wght@1,300&display=swap');
+body{
+    
+    background-image: url('https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80');
+}
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-family: 'Square Peg', cursive;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+table{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJoDUFWM8eRhLEJvVqTO9Tl0XOa4kxKEj3Hw&usqp=CAU');
+
+}
+
+.button1{
+    background-color:red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    border-radius: 12px;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+.button2{
+    background-color:blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    border-radius: 12px;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+.button3{
+    background-color:purple;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    border-radius: 12px;
+    cursor: pointer;
+}
+.button3:hover {
+    background-color: black;
+    color: white;
+}
+.button4{
+    background-color:brown;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    border-radius: 12px;
+    cursor: pointer;
+}
+.button4:hover {
+    background-color: black;
+    color: white;
+}
+.button5{
+    background-color:brown;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+.button5:hover{
+    background-color: black;
+    color:white
+}
+#mytable td:nth-child(2)
+{
+    font-size: 20px;
+}
+#mytable td:nth-child(1)
+{
+    width: 30%;
+    font-size: 35px;
+}
+form
+{
+	background-color: aqua;
+	color: darkblue;
+	padding: 20px;
+	font-size: 1.5rem;
+	border-radius: 12px;
+}
+
+form *
+{
+	box-sizing: border-box;
+	transition: width 0.5s;
+	font-family: 'Kalam', cursive;
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.label1
+{
+	width: 25%;
+	float: left;
+	margin: 3px 0px;
+	font-weight: bold;
+}
+
+.input1
+{
+	width: 75%;
+	float: left;
+	margin: 3px 0px;
+}
+
+input[type="text"]
+{
+	width: 100%;
+	padding: 12px;
+	border-radius: 12px;
+	border: 0px;
+}
+
+label
+{
+	display: inline-block;
+	padding: 6px;
+}
+
+input[type="submit"]
+{
+	background-color: darkblue;
+	padding: 12px 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 10px;
+	margin-top: 20px;
+	transition: 0.3s;
+}
+
+input[type="submit"]:hover
+{
+	background-color: black;
+	color: white;
+}
+
+input[type="text"]:focus, select:focus
+{
+	border: 2px solid #c73484;
+	padding: 10px;
+	width: 100%;
+}
+
+input[type="text"]:hover, select:hover
+{
+	border: 2px solid #c785a9;
+	padding: 10px;
+}
