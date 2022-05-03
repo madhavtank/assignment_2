@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roster</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Zilla+Slab:ital,wght@1,300&display=swap');
+        h1{
+            color: white;
+            font-weight: bolder;
+        }
+        body{
+            background-color: black;
+        }
+        table{
+            font-size: 1.5rem;
+            width: 80%;
+            text-align: center;
+            border-collapse: collapse;
+            border: 4px solid red;
+        }
+        td{
+            background-color: yellow;
+            font-size: 1.5rem;
+            width: 14%;
+            text-align: center;
+            font-weight: bold;
+            border-collapse: collapse;
+            border: 4px solid red;
+            font-family: 'Square Peg', cursive;
+            font-family: 'Zilla Slab', serif;
+        }
+        td:hover{
+            color: white;
+            background-color: darkblue;
+        }
+    </style>
+    <script>
+      var subjects = [];
+      for (var i = 0; i < 18; i++) {
+        subjects[i] = prompt("Enter the name of subject " + (i+1) );
+      } 
+     document.write("<center>");
+     document.write("<h1><I><U>Time-Table</U></I></h1>");
+
+     document.write("<table>");
+        document.write("<tr>");
+        document.write("<td>Monday</td>");
+        document.write("<td>Tuesday</td>");
+        document.write("<td>Wednesday</td>");
+        document.write("<td>Thursday</td>");
+        document.write("<td>Friday</td>");
+        document.write("<td>Saturday</td>");
+        document.write("<td>Sunday</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write(subjects[0]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[6]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[12]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[0]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[6]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[12]);
+        document.write("</td>");
+        document.write("<td>H</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write(subjects[1]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[7]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[13]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[1]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[7]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[13]);
+        document.write("</td>");
+        document.write("<td>O</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write(subjects[2]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[8]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[14]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[2]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[8]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[14]);
+        document.write("</td>");
+        document.write("<td>L</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>Break</td>");
+        document.write("<td>Break</td>");
+        document.write("<td>Break</td>");
+        document.write("<td>Break</td>");
+        document.write("<td>Break</td>");
+        document.write("<td>Break</td>");
+        document.write("<td>I</td>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write(subjects[3]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[9]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[15]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[3]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[9]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[15]);
+        document.write("</td>");
+        document.write("<td>D</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write(subjects[4]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[10]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[16]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[4]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[10]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[16]);
+        document.write("</td>");
+        document.write("<td>A</td>");
+        document.write("</tr>");
+
+        document.write("<tr>");
+        document.write("<td>");
+        document.write(subjects[5]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[11]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[17]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[5]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[11]);
+        document.write("</td>");
+        document.write("<td>");
+        document.write(subjects[17]);
+        document.write("</td>");
+        document.write("<td>Y</td>");
+        document.write("</tr>");
+        document.write("</table>");
+        document.write("</center>");
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
